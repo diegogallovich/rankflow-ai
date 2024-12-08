@@ -10,12 +10,12 @@ import Cookies from "js-cookie";
 
 export const appwriteClient = new Appwrite();
 
-const appwriteJWT = Cookies.get(APPWRITE_JWT_KEY);
+const appwriteJWT = Cookies.get(APPWRITE_JWT_KEY as string);
 if (appwriteJWT) {
   appwriteClient.setJWT(appwriteJWT);
 }
 
-appwriteClient.setEndpoint(APPWRITE_URL).setProject(APPWRITE_PROJECT);
+appwriteClient.setEndpoint(APPWRITE_URL as string).setProject(APPWRITE_PROJECT as string);
 
 export const appwriteAccount = new Account(appwriteClient);
 export const appwriteStorage = new Storage(appwriteClient);
