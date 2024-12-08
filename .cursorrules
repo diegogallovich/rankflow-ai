@@ -1,0 +1,67 @@
+# .cursorrules for Webflow CMS AI Content Creation SaaS
+
+## Project Overview
+- SaaS application for AI-powered content creation in Webflow CMS
+- Focus on SEO optimization
+- Built with Refine Dev, NextJS, Ant Design, and Appwrite
+
+## Tech Stack
+- Frontend: NextJS (App Router)
+- UI Components: Ant Design
+- Backend & Authentication: Appwrite
+- Framework: Refine Dev
+
+## Coding Standards
+- Use TypeScript for type safety
+- Implement ESLint and Prettier for code consistency
+- Follow Refine Dev best practices
+
+## File Structure
+- Use Next.js App Router structure
+- Organize components in a logical hierarchy
+- Separate business logic from UI components
+
+## SEO Optimization
+- Implement proper metadata for each page
+- Use semantic HTML tags
+- Optimize images with Next.js Image component
+
+## Ant Design Usage
+- Use Ant Design components consistently
+- Customize theme using Ant Design's ConfigProvider
+- Implement responsive design principles
+
+## Appwrite Integration
+- Use Appwrite SDK for authentication and backend operations
+- Implement proper error handling for Appwrite API calls
+- Secure API keys and sensitive information using environment variables
+
+## AI Integration
+- Implement AI-powered content generation features
+- Optimize AI-generated content for SEO
+- Ensure proper error handling and fallbacks for AI operations
+
+## Performance
+- Implement code splitting and lazy loading
+- Optimize API calls and data fetching
+- Use server-side rendering where appropriate
+
+## Testing
+- Write unit tests for critical components and functions
+- Implement integration tests for key user flows
+- Use Jest and React Testing Library for testing
+
+## Documentation
+- Maintain clear and up-to-date documentation
+- Document API endpoints and their usage
+- Include setup instructions in the README.md file
+
+## Refine Dev Specific
+- Utilize Refine hooks and components for data management
+- Implement custom hooks for business logic
+- Use Refine's auth provider with Appwrite
+
+## Cursor-specific Instructions
+- Prioritize server components unless client-side interactivity is required
+- Use the `use client` directive for client components
+- Implement proper loading and error states using Next.js 13+ conventions
